@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# EOS dataset
+data/processed_photos/
+data/*.csv
+
+# Trained models
+models/
+*.pkl
+*.joblib
+
+# Generated output
+results/
+outputs/
