@@ -136,7 +136,7 @@ def crop_with_aspect_ratio(original_np, crop_start, crop_end):
 
 # ===== GUI =====
 
-class AuroraPredictor:
+class EOSPredictor:
 
     def __init__(self, root):
         self.root = root

@@ -63,6 +63,7 @@ EOS/
 ├── data/       # Local/private dataset (not included)
 └── models/     # Trained models (not included)
 
+```
 
 # Machine Learning Pipeline
 
