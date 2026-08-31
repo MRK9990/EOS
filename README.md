@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo/logo.png" width="180">
+</p>
+
 # EOS
 
 ### Dental Image Color Normalization & Prediction System
@@ -55,14 +59,9 @@ The project is currently organized into several main components:
 EOS/
 │
 ├── apps/       # User-facing applications
-├── configs/    # Configuration files
 ├── docs/       # Project documentation
 ├── scripts/    # Dataset, training and evaluation scripts
 ├── src/        # Core EOS source code
-├── tests/      # Tests
-├── data/       # Local/private dataset (not included)
-└── models/     # Trained models (not included)
-
 ```
 
 # Machine Learning Pipeline
@@ -108,7 +107,11 @@ The decision not to publish the dataset is intentional and is related
 to data management, privacy and research considerations.
 
 Therefore, the repository contains the code required to construct and
-process the dataset, but not the underlying image collection.
+process the dataset(lab_gui.py), but not the underlying image collection.
+
+<p align="center">
+  <img src="assets/screenshots/screenshot2.png" width="900">
+</p>
 
 
 ## Model
@@ -177,6 +180,10 @@ py scripts/evaluate_model.py
 py apps/predictor_gui.py
 ```
 
+<p align="center">
+  <img src="assets/screenshots/screenshot1.png" width="900">
+</p>
+
 The predictor requires a locally available trained EOS model.
 
 
@@ -233,10 +240,18 @@ camera characteristics and other acquisition conditions.
 
 ## License
 
-The source code of EOS is released under the MIT License.
 
-The EOS dataset, trained model files and other non-public research
-assets are not included in this repository and are not covered by
-the public code distribution.
+The EOS source code is released under the MIT License.
 
-See LICENSE for the full license text.
+Copyright © 2026 Mrak Prokopenko.
+
+The following are NOT included in the MIT-licensed source distribution:
+
+- EOS dataset and dental image collection;
+- trained EOS model files;
+- private research data;
+- non-public experimental assets.
+
+The EOS name, logo and visual identity are project branding and are
+not granted additional rights beyond those explicitly provided by
+the software license.

@@ -653,5 +653,5 @@ class EOSPredictor:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = AuroraPredictor(root)
+    app = EOSPredictor(root)
     root.mainloop()
